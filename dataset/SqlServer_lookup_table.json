@@ -1,0 +1,26 @@
+{
+	"name": "SqlServer_lookup_table",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Desktop_SqlServer_linked_service",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "Schema_name",
+				"type": "varchar"
+			},
+			{
+				"name": "table_name",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "lookuptable"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

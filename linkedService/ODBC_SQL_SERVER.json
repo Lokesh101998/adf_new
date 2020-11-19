@@ -1,0 +1,19 @@
+{
+	"name": "ODBC_SQL_SERVER",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "Odbc",
+		"typeProperties": {
+			"connectionString": {
+				"type": "SecureString",
+				"value": "**********"
+			},
+			"authenticationType": "Anonymous"
+		},
+		"connectVia": {
+			"referenceName": "self-hosted",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

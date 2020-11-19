@@ -1,0 +1,34 @@
+{
+	"name": "SqlServer_lookup_test",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Desktop_SqlServer_linked_service",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "table_name",
+				"type": "varchar"
+			},
+			{
+				"name": "date_col",
+				"type": "varchar"
+			},
+			{
+				"name": "date_value",
+				"type": "date"
+			},
+			{
+				"name": "folder_name",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "lookup_test"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

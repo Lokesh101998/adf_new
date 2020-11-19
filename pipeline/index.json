@@ -1,0 +1,30 @@
+{
+	"name": "index",
+	"properties": {
+		"activities": [
+			{
+				"name": "Stored procedure1",
+				"type": "SqlServerStoredProcedure",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"storedProcedureName": "[dbo].[sp]"
+				},
+				"linkedServiceName": {
+					"referenceName": "Desktop_SqlServer_linked_service",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2020-07-18T13:16:40Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

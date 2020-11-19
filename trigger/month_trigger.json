@@ -1,0 +1,32 @@
+{
+	"name": "month_trigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Month",
+				"interval": 1,
+				"startTime": "2020-07-01T07:00:00Z",
+				"endTime": "2020-07-01T07:20:00Z",
+				"timeZone": "UTC",
+				"schedule": {
+					"minutes": [
+						10
+					],
+					"hours": [
+						7
+					],
+					"monthlyOccurrences": [
+						{
+							"day": "Sunday",
+							"occurrence": 1
+						}
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"name": "Hdfs1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "Hdfs",
+		"typeProperties": {
+			"url": "http://master1:50070/webhdfs/v1/",
+			"authenticationType": "Anonymous"
+		},
+		"connectVia": {
+			"referenceName": "self-hosted",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

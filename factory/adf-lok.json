@@ -1,0 +1,12 @@
+{
+	"name": "adf-lok",
+	"properties": {
+		"globalParameters": {
+			"table_name": {
+				"type": "string",
+				"value": "@concat(pipeline().globalParameters.table_name,utcnow())"
+			}
+		}
+	},
+	"location": "eastus"
+}

@@ -1,0 +1,20 @@
+{
+	"name": "data_source",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Desktop_SqlServer_linked_service",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "incremental_single_table"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "date_update"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

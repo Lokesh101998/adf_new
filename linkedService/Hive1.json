@@ -1,0 +1,22 @@
+{
+	"name": "Hive1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "Hive",
+		"typeProperties": {
+			"host": "master1",
+			"port": 10000,
+			"authenticationType": "Username",
+			"serviceDiscoveryMode": false,
+			"useNativeQuery": false,
+			"username": "hive",
+			"enableSsl": false,
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJhN2E3ZWZmMi01ODU0LTQ1NzMtODNkYi03N2M3ZmJkOGQ5NGQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "self-hosted-integrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

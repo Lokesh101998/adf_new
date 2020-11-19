@@ -1,0 +1,16 @@
+{
+	"name": "Desktop_SqlServer_linked_service",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=DESKTOP-KVV06P1;initial catalog=intern;user id=lokesh",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJjYjFlYzY3ZS00Mjk4LTQyOGMtYWVlZS0xNzU3ODBkZGE1YjgiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "self-hosted",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

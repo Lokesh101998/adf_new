@@ -1,0 +1,17 @@
+{
+	"name": "local_system",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "E:\\",
+			"userId": "Celebal",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJhMGMwODJhMi04ZGM0LTRhNTgtOGM1My00NDAzYzI1Y2E3YjQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integraion-selfhosted",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"name": "SqlServerTable_partition",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Desktop_SqlServer_linked_service",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "Year",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Type_code",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Type",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Gender",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Age_group",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Total",
+				"type": "nvarchar"
+			},
+			{
+				"name": "State",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "sucid_phy_part"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,16 @@
+{
+	"name": "Odbc_sucide_demo",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ODBC_SQL_SERVER",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "OdbcTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": "\"dbo\".\"file1\""
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

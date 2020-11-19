@@ -1,0 +1,23 @@
+{
+	"name": "gen2_incremental",
+	"properties": {
+		"activities": [
+			{
+				"name": "gen2_incre",
+				"type": "ExecutePipeline",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "GEN2_task",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2020-10-18T06:19:03Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

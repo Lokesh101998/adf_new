@@ -1,0 +1,30 @@
+{
+	"name": "blob_lookup",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage_linked_service",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"file_name": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "blob",
+				"folderPath": "copyfolder",
+				"container": "employeeblob"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

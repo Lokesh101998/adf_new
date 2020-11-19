@@ -1,0 +1,17 @@
+{
+	"name": "SqlServer_mx_date_get",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Desktop_SqlServer_linked_service",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "max_date_update"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

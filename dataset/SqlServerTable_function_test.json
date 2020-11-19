@@ -1,0 +1,54 @@
+{
+	"name": "SqlServerTable_function_test",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Desktop_SqlServer_linked_service",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"column1": {
+				"type": "string"
+			},
+			"column2": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "Year",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Type_code",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Type",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Gender",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Age_group",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Total",
+				"type": "nvarchar"
+			},
+			{
+				"name": "State",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "sucid_demo"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
